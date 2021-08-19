@@ -1,0 +1,25 @@
+{
+  "name": "daily-meme-bot",
+  "version": "1.0.0",
+  "description": "1. Goal: build a Twitter bot that posts memes depending on the time of the day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khalifa-is/daily-meme-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalifa-is/daily-meme-bot/issues"
+  },
+  "homepage": "https://github.com/khalifa-is/daily-meme-bot#readme",
+  "dependencies": {
+    "aws-sdk": "^2.972.0",
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  }
+}
