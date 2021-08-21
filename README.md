@@ -23,6 +23,9 @@
         "sunday": [s3-file-names...]
    }
    ```
+Instead of a JSON file, it's better to have a folder for each object in S3 
+and select one file at random depending on what day it is - that way we avoid 
+maintaining a JSON config
 
 Each day will have an array of the filenames for every meme. We can then get the day of the week and pick a file at
 random (files will be numbered).
