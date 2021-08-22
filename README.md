@@ -28,3 +28,9 @@ random.
 
 4. Extra features:
    - We should be able to trigger Lambda manually and pass a message that will then be posted
+
+5. Running/testing
+```
+npm install
+node index.js -d
+```
